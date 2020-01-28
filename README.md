@@ -1,5 +1,4 @@
-# theJourney_begins
-First Projects
+pwProtect (My First Branch)
 
 After learning some python I decided my first git project would be a password storing
 application.  This one using SHA256 to store a password to any site string (plain text)
