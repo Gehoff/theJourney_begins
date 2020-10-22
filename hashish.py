@@ -7,11 +7,9 @@ Created on Sat Jan 25 21:11:57 2020
 Hashing
 """
 
-import random
 import hashlib
 
 def create_hash(inp):
-    random.randint(1, 100) #Useless line to remove Warning
     inp = hashlib.sha256(inp.encode())
     return inp.hexdigest()
 
